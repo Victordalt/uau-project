@@ -1,0 +1,110 @@
+.navbarContainer { 
+    background-color: transparent;
+    padding: 2rem 0 0 3rem;
+    z-index: 10;  
+    position:fixed; 
+    height: 80px;
+    width: 97.2%;        
+    
+
+
+    transition: background-color 0.5s;
+    
+           
+
+    nav {      
+        
+        font-family: Bebas Neue; 
+        align-items: center;
+        display: flex;   
+          
+    }
+
+    .navLinks{    
+        display: flex;
+        flex: 1;       
+        color: white;
+        align-items: center;            
+        justify-content:space-evenly; 
+        
+        
+        li {    
+                    
+            list-style-type: none;  
+                     
+            &:hover{    
+                transform: scale(1.1);               
+            }
+
+            a{    
+                text-decoration: none;  
+                font-size: 30px;
+                
+                cursor: pointer;  
+                
+                &:hover{    
+                    border-bottom: 1px solid #fff;
+                }
+            }
+        }        
+    }
+}
+
+.navbarContainerActive { 
+        
+    padding: 2rem 0 0 3rem;
+    z-index: 10;  
+    position:fixed; 
+    height: 80px;
+    width: 97.2%;    
+    
+    background: rgba(0,0,0,.7);
+    transition: background 0.5s;
+    
+    
+
+    
+    
+
+    nav {      
+        
+        font-family: Bebas Neue; 
+        align-items: center;
+        display: flex;     
+    }
+
+    .navLinks{  
+        
+        z-index: 2;  
+        display: flex;
+        flex: 1;       
+        color: white;
+        align-items: center;            
+        justify-content:space-evenly; 
+        
+        
+        li {    
+             
+            list-style-type: none;  
+                     
+            &:hover{    
+                transform: scale(1.1);               
+            }
+
+            a{    
+                text-decoration: none;  
+                font-size: 30px;
+                
+                cursor: pointer;  
+                
+                &:hover{    
+                    border-bottom: 1px solid #fff;
+                }
+            }
+        }        
+    }
+}
+
+
+
+

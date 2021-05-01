@@ -1,0 +1,35 @@
+.mainContainer {
+    padding: 2rem 4rem 2rem 4rem;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(165, 7, 7);
+    background-image: url("../../../public/burgerbackground.png");
+    width: 92.3%;
+    height: 320px;
+    text-align: center;
+    color: white;
+    
+    
+    
+
+    h2 {
+        
+        font-size: 45px;
+        padding: 0 0 4rem 0;
+        
+        
+    }
+
+
+    p{
+        font-size: 30px;
+        padding: 0 0 4rem 0;
+    }
+
+
+    span {
+        
+        font-size: 25px;        
+        
+    }
+}

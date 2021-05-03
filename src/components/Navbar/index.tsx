@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 
 
 
@@ -8,16 +8,20 @@ import React,{useState} from 'react';
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 
-    function changeBackground() {        
-        if (window.scrollY >= 80){            
-            setNavbar(true);
-        } else {
-            setNavbar(false);
+   
+    useEffect(() => {
+        function onScroll() {
+            if (window.scrollY >= 80){            
+                        setNavbar(true);
+                    } else {
+                        setNavbar(false);
+                    }
         }
-    };
+        window.addEventListener('scroll', onScroll);
 
+    })
     
-    window.addEventListener('scroll', changeBackground);
+    
 
 
     return (
@@ -30,14 +34,17 @@ export default function Navbar() {
                     alt="Background"
                     objectFit="cover"              
                 />               
-                <ul className={styles.navLinks}>                
+                <ul className={styles.navLinks}>
+                    <div>
                     <li><a>HOME</a></li>
-                    
+                    <span>|</span>
                     <li><a>SOBRE NOS</a></li> 
-                                                                   
+                    <span>|</span>                                             
                     <li><a>MARCAS</a></li>
-                    
+                    <span>|</span>
                     <li><a>CONTATO</a></li>
+                    </div>              
+                    
                 </ul>                
             </nav>            
         </div>

@@ -1,0 +1,59 @@
+.marcasContainer {
+    width: 100%;
+    height: 700px;
+    background-color: #353535;
+    z-index: 1;
+    position: relative;
+    background-image: url("../../../public/burgerbackground.png");
+    color: white;
+    text-align: center;
+    padding: 3rem 4rem 2rem 4rem;
+    width: 92.44%;
+    justify-content: center;   
+
+    
+
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 4rem;
+        justify-content: space-between;
+        
+        
+        tr {
+                   
+
+
+            td {
+                padding: 2rem; 
+                 
+                
+                div {
+
+                    border-radius: 20px;                    
+                    box-shadow:10px 10px black;    
+                    
+                    &:hover{    
+                        transition: 0.2s;
+                        transform: scale(1.02);   
+                          
+                    }
+
+                    a {
+                        cursor: pointer;
+                        
+                    }
+
+                }
+            }
+        }
+
+        
+        
+        
+    }
+
+    
+
+}

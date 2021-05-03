@@ -10,8 +10,11 @@ function MyApp({ Component, pageProps }) {
       <main>
         <Navbar />
         <Component {...pageProps} />
-        <Description/>
-        <Marcas/>
+        <div className="mainContent">
+          <Description/>
+          <Marcas/>
+        </div>
+        
       </main>
       
     </>

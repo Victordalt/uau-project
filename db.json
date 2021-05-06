@@ -10,43 +10,43 @@
         "id": "seu-chef",
         "name": "Seu Chef",
         "delivery_site": "https://www.ubereats.com/br/salvador/food-delivery/seu-chef/JZfeIG32SSyYgZNVAP6tNw?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjE4JTIwRXJza2luZSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUp0d29rNmlNeks0Z1JtdllMelFBaklSQSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0My43MTE0MzM5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTc5LjM5ODUzMTY5OTk5OTk5JTdE",      
-        "src": "https://i.ibb.co/gZhhWzF/seuChef.jpg"
+        "src": "/seuChef.jpg"
       },
       {
         "id": "seu-dog",
         "name": "Seu Dog",
         "delivery_site": "https://www.ubereats.com/br/salvador/food-delivery/seu-dog/vUsbDWw8SdCgOlQBkLEoFA?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjE4JTIwRXJza2luZSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUp0d29rNmlNeks0Z1JtdllMelFBaklSQSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0My43MTE0MzM5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTc5LjM5ODUzMTY5OTk5OTk5JTdE",      
-        "src": "https://ibb.co/FnzSK1s"
+        "src": "/seuDog.jpg"
       },
       {
         "id": "seu-yaki",
         "name": "Seu Yaki",
         "delivery_site": "https://www.ubereats.com/br/salvador/food-delivery/seu-yaki/6tOezhxlSn-XnRoKI1GCPQ?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjE4JTIwRXJza2luZSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUp0d29rNmlNeks0Z1JtdllMelFBaklSQSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0My43MTE0MzM5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTc5LjM5ODUzMTY5OTk5OTk5JTdE",      
-        "src": "https://ibb.co/wYnTbh0"
+        "src": "/seuYaki.jpg"
       },
       {
         "id": "seu-pirao",
         "name": "Seu Pirao",
         "delivery_site": "https://www.ubereats.com/br/salvador/food-delivery/seu-pirao/aM0BPbnATV6NVYRXXeG9qg?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjE4JTIwRXJza2luZSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUp0d29rNmlNeks0Z1JtdllMelFBaklSQSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0My43MTE0MzM5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTc5LjM5ODUzMTY5OTk5OTk5JTdE",      
-        "src": "https://ibb.co/25phMmy"
+        "src": "/seuPirao.jpg"
       },
       {
         "id": "uau-burger",
         "name": "Uau Burger",
         "delivery_site": "https://www.ifood.com.br/delivery/salvador-ba/uau-dog--burger-pituba/3062a5f9-2851-448b-b694-5da1c555f846",      
-        "src": "https://ibb.co/qmP6SX0"
+        "src": "/uauBurger.jpg"
       },
       {
         "id": "uau-dog",
         "name": "Uau Dog & Burger",
         "delivery_site": "https://www.ifood.com.br/delivery/salvador-ba/uau-dog--burger-pituba/3062a5f9-2851-448b-b694-5da1c555f846",      
-        "src": "https://ibb.co/hmkjkdb"
+        "src": "/uauFundoBranco.jpg"
       },
       {
         "id": "seu-acai",
         "name": "Seu Açaí",
         "delivery_site": "https://www.ubereats.com/br/salvador/food-delivery/seu-burger-r%2410/VMiB4q1rSB2fu1sMjeGZ5g?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMjE4JTIwRXJza2luZSUyMEF2ZSUyMiUyQyUyMnJlZmVyZW5jZSUyMiUzQSUyMkNoSUp0d29rNmlNeks0Z1JtdllMelFBaklSQSUyMiUyQyUyMnJlZmVyZW5jZVR5cGUlMjIlM0ElMjJnb29nbGVfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0My43MTE0MzM5JTJDJTIybG9uZ2l0dWRlJTIyJTNBLTc5LjM5ODUzMTY5OTk5OTk5JTdE",      
-        "src": "https://ibb.co/9swf95D"
+        "src": "/seuAcai.jpg"
       }
             
     ]

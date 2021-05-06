@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React,{useState, useEffect} from 'react';
 import * as Scroll from 'react-scroll';
 
-
+// React-scroll variables
 let Events    = Scroll.Events;
 let scrollSpy = Scroll.scrollSpy;
 var Link      = Scroll.Link;

@@ -29,7 +29,7 @@ export default function Footer() {
     return (
         <div className={styles.footerContainer}>
             <div className={styles.contentContainer}>
-                <img src="./Logo_Endereco.png" alt=""/>
+                <img className={styles.logoEnd} src="./Logo_Endereco.png" alt=""/>
                 <ul className={styles.footerLinks}>
                     <div>
                         <li><a onClick={scrollToTop}>HOME</a></li>

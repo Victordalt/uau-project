@@ -19,7 +19,8 @@ type HomeProps = {
     marcas: Marca[];
   }
 
-  const fetchURL = "http://localhost:3333/marcas";
+  //const fetchURL = "http://localhost:3333/marcas";
+  const fetchURL = "http://my-json-server.typicode.com/victordalt/uau-project/marcas";
   const getItems = () => fetch(fetchURL).then(res => res.json());
   
 

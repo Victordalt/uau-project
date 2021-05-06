@@ -18,7 +18,7 @@ type HomeProps = {
   }
 
   //const fetchURL = "http://localhost:3333/marcas";
-  const fetchURL = "http://my-json-server.typicode.com/Victordalt/uau-project/marcas";
+  const fetchURL = "my-json-server.typicode.com/Victordalt/uau-project/marcas";
   const getItems = () => fetch(fetchURL).then(res => res.json());
   
 
@@ -50,8 +50,7 @@ export default function Marcas() {
                                                 width={150} 
                                                 height={150} 
                                                 src={marca.src}
-                                                alt=""
-                                                
+                                                alt=""                                                
                                             />
                                         </a>                                        
                                     </div>                                    

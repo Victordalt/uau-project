@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
 import Image from 'next/image'
-import { GetStaticProps } from 'next';
 //import {api} from '../../pages/services/api';
-import { Server } from 'node:http';
 
 type Marca = {
     id: string;
@@ -20,7 +18,7 @@ type HomeProps = {
   }
 
   //const fetchURL = "http://localhost:3333/marcas";
-  const fetchURL = "http://my-json-server.typicode.com/victordalt/uau-project/";
+  const fetchURL = "http://my-json-server.typicode.com/Victordalt/uau-project";
   const getItems = () => fetch(fetchURL).then(res => res.json());
   
 

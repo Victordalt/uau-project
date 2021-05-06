@@ -46,7 +46,7 @@ export default function Marcas() {
                             return (
                                 <td key={marca.id}>
                                     <div>
-                                        <a href={marca.delivery_site}>
+                                        <a href={marca.delivery_site}  target="_blank">
                                             <Image 
                                                 width={180} 
                                                 height={180} 
@@ -65,7 +65,7 @@ export default function Marcas() {
                             return (                                
                                 <td key={marca.id}>
                                     <div>
-                                        <a href={marca.delivery_site}>
+                                        <a href={marca.delivery_site}target="_blank">
                                             <Image 
                                                 width={180} 
                                                 height={180} 

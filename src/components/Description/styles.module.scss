@@ -1,24 +1,28 @@
+
+
+
 .mainContainer {
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 4rem 4rem 3rem 4rem;
     position: relative;
     z-index: 1;
-    background-color: #900000;
-    background-image: url("../../../public/burgerbackground.png");
-    width: 92.3%;
-    height: 320px;
+    background-color: #aa0000;
+    width: 90%;
+    height: 460px;
     text-align: center;
-    color: white;
-    border-bottom: solid 1px white;
-    border-top: solid 1px white;
-    
-    
-
-
-    p{
-        font-size: 28px;        
-        padding: 2rem 15rem 1rem 15rem;
-    }
-
-
-    
+    color: rgb(228, 228, 228);
+    background-image: url('../../../public/newBG_black_fade.png'); 
+    box-shadow:10px 10px 10px black; 
+    margin: auto;
+    border-radius: 25px;
 }
+
+// .mainContainer::before {
+//     content: "";
+//     background-image: url('../../../public/newBG_black_fade.png');    
+//     position: absolute;
+//     top: 0px;
+//     right: 0px;
+//     bottom: 0px;
+//     left: 0px;
+//     opacity: 0.3;
+// }

@@ -1,14 +1,19 @@
 .navbarContainer { 
     background-color: transparent;
-    padding: 2rem 0 0 3rem;
+    padding: 1.5rem 0 0 3rem;
     z-index: 10;  
     position:fixed; 
-    height: 80px;
-    width: 97.2%;        
+    height: 12vh;
+    width: 90%;   
+    border-bottom-left-radius: 25px;  
+    border-bottom-right-radius: 25px;  
+    
+    margin: auto;
+    left:5%;
     
 
 
-    transition: background-color 0.5s;
+    transition: background-color 0.8s;
     
            
 
@@ -33,7 +38,7 @@
             align-items: center;
             flex:1;
             width: 10px;
-            margin-left: 15rem;
+            margin-left: 14rem;
             margin-right: 20rem;
         }
         
@@ -62,16 +67,20 @@
 
 .navbarContainerActive { 
         
-    padding: 2rem 0 0 3rem;
+    padding: 1.5rem 0 0 3rem;
     z-index: 10;  
     position:fixed; 
-    height: 80px;
-    width: 97.2%;    
+    height: 12vh;
+    width: 90%;    
+    margin: auto;
+
+    left:5%;
     
-    background: rgba(0,0,0,.7);
+    background: rgba(27, 27, 27, 0.95);
     transition: background 0.5s;
     
-    
+    border-bottom-left-radius: 25px;  
+    border-bottom-right-radius: 25px;
 
     
     
@@ -96,7 +105,7 @@
             align-items: center;
             flex:1;
             width: 10px;
-            margin-left: 15rem;
+            margin-left: 14rem;
             margin-right: 20rem;
         }
 

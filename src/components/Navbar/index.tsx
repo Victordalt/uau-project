@@ -36,13 +36,13 @@ export default function Navbar() {
                 />               
                 <ul className={styles.navLinks}>
                     <div>
-                    <li><a>HOME</a></li>
+                    <li><a href="#">HOME</a></li>
                     <span>|</span>
-                    <li><a>SOBRE NOS</a></li> 
+                    <li><a href="#description">SOBRE NOS</a></li> 
                     <span>|</span>                                             
-                    <li><a>MARCAS</a></li>
+                    <li><a href="#marcas">MARCAS</a></li>
                     <span>|</span>
-                    <li><a>CONTATO</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
                     </div>              
                     
                 </ul>                

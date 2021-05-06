@@ -38,8 +38,8 @@ export default function Home() {
         />        
         <img 
           className={styles.logoImg}
-          src="/logo_Nome.png" 
-          alt="Background"                         
+          src="/logo_nome.png" 
+          alt="logo"                         
         />         
       </div>
     </div>

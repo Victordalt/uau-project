@@ -46,12 +46,12 @@ export default function Marcas() {
                                 <td key={marca.id}>
                                     <div>
                                         <a href={marca.delivery_site}  target="_blank">
-                                            <Image 
+                                            <img 
                                                 width={150} 
                                                 height={150} 
                                                 src={marca.src}
                                                 alt=""
-                                                objectFit="cover"
+                                                
                                             />
                                         </a>                                        
                                     </div>                                    

@@ -31,7 +31,7 @@ export default function Marcas() {
 
     useEffect(()=> {
         getItems().then(data => setMarcas(data));
-    }, []);
+    },);
 
     
     return (      

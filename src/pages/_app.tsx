@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
       <main>
         <Navbar />
         <Component {...pageProps} />
-        <div className="mainContent">
+        <div className="mainContent" id="home">
           <a className="descriptionAnchor" id="description"></a>
           <Description/>
           <div className="divider"></div>

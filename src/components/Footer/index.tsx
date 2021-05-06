@@ -1,22 +1,44 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './styles.module.scss';
+import * as Scroll from 'react-scroll';
 
-
+let Events    = Scroll.Events;
+let scrollSpy = Scroll.scrollSpy;
+var Link      = Scroll.Link;
+var scroll    = Scroll.animateScroll;
 
 export default function Footer() {
+
+    function scrollToTop() {
+        scroll.scrollToTop({spy:true, smooth:true, offset:50, duration:500});
+    }
+    
+    useEffect(() => {
+        Events.scrollEvent.register('begin', function(to, element) {
+          console.log('begin', arguments);
+        });
+    
+        Events.scrollEvent.register('end', function(to, element) {
+          console.log('end', arguments);
+        });
+    
+        scrollSpy.update();
+      },)
+
+      
     return (
         <div className={styles.footerContainer}>
             <div className={styles.contentContainer}>
                 <img src="./Logo_Endereco.png" alt=""/>
                 <ul className={styles.footerLinks}>
                     <div>
-                    <li><a href="#">HOME</a></li>
-                    
-                    <li><a href="#description">SOBRE NOS</a></li> 
-                                                                
-                    <li><a href="#marcas">MARCAS</a></li>
-                    
-                    <li><a href="#contato">CONTATO</a></li>
+                        <li><a onClick={scrollToTop}>HOME</a></li>
+                        <span>|</span>
+                        <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE Nos</Link></li> 
+                        <span>|</span>                                             
+                        <li><Link to="marcas" spy={true} smooth={true} offset={50} duration={500}>MARCAS</Link></li>
+                        <span>|</span>
+                        <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</Link></li>
                     </div>                   
                 </ul>
                 <div className={styles.iconsContainer}>

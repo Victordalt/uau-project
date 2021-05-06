@@ -48,8 +48,8 @@ export default function Marcas() {
                                     <div>
                                         <a href={marca.delivery_site}  target="_blank">
                                             <Image 
-                                                width={180} 
-                                                height={180} 
+                                                width={150} 
+                                                height={150} 
                                                 src={marca.src}
                                                 alt=""
                                                 objectFit="cover"
@@ -67,8 +67,8 @@ export default function Marcas() {
                                     <div>
                                         <a href={marca.delivery_site}target="_blank">
                                             <Image 
-                                                width={180} 
-                                                height={180} 
+                                                width={150} 
+                                                height={150} 
                                                 src={marca.src}
                                                 alt=""
                                                 objectFit="cover"

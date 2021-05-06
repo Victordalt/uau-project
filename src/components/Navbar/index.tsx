@@ -1,13 +1,18 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
 import React,{useState, useEffect} from 'react';
+import * as Scroll from 'react-scroll';
 
 
-
+let Events    = Scroll.Events;
+let scrollSpy = Scroll.scrollSpy;
+var Link      = Scroll.Link;
+var scroll    = Scroll.animateScroll;
 
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 
+    
    
     useEffect(() => {
         function onScroll() {
@@ -21,6 +26,21 @@ export default function Navbar() {
 
     })
     
+    function scrollToTop() {
+        scroll.scrollToTop({spy:true, smooth:true, offset:50, duration:500});
+    }
+
+    useEffect(() => {
+        Events.scrollEvent.register('begin', function(to, element) {
+          console.log('begin', arguments);
+        });
+    
+        Events.scrollEvent.register('end', function(to, element) {
+          console.log('end', arguments);
+        });
+    
+        scrollSpy.update();
+      },)
     
 
 
@@ -36,13 +56,13 @@ export default function Navbar() {
                 />               
                 <ul className={styles.navLinks}>
                     <div>
-                    <li><a href="#">HOME</a></li>
+                    <li><a onClick={scrollToTop}>HOME</a></li>
                     <span>|</span>
-                    <li><a href="#description">SOBRE NOS</a></li> 
+                    <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE Nos</Link></li> 
                     <span>|</span>                                             
-                    <li><a href="#marcas">MARCAS</a></li>
+                    <li><Link to="marcas" spy={true} smooth={true} offset={50} duration={500}>MARCAS</Link></li>
                     <span>|</span>
-                    <li><a href="#contato">CONTATO</a></li>
+                    <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</Link></li>
                     </div>              
                     
                 </ul>                

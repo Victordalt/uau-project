@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './styles.module.scss';
 import Image from 'next/image'
 import { GetStaticProps } from 'next';
-import {api} from '../../pages/services/api';
+//import {api} from '../../pages/services/api';
 import { Server } from 'node:http';
 
 type Marca = {

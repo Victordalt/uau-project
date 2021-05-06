@@ -9,6 +9,8 @@ let scrollSpy = Scroll.scrollSpy;
 var Link      = Scroll.Link;
 var scroll    = Scroll.animateScroll;
 
+
+
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 

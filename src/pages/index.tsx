@@ -1,7 +1,7 @@
 import styles from './home.module.scss';
 import Head from 'next/head';
 import Image from 'next/image';
-import {api} from './services/api';
+//import {api} from './services/api';
 import { useEffect, useState } from 'react';
 
 

@@ -3,7 +3,7 @@
     padding: 1.5rem 0 0 3rem;
     z-index: 10;  
     position:fixed; 
-    height: 12vh;
+    height: 6rem;
     width: 80%;   
     border-bottom-left-radius: 60px;  
     border-bottom-right-radius: 60px;  
@@ -34,7 +34,7 @@
 
         div {
             display: flex;
-            justify-content:space-evenly; 
+            justify-content:space-between; 
             align-items: center;
             flex:1;
             width: 10px;
@@ -53,7 +53,7 @@
 
             a{    
                 text-decoration: none;  
-                font-size: 30px;
+                
                 
                 cursor: pointer;  
                 
@@ -70,7 +70,7 @@
     padding: 1.5rem 0 0 3rem;
     z-index: 10;  
     position:fixed; 
-    height: 12vh;
+    height: 6rem;
     width: 80%;    
     margin: auto;
 
@@ -98,10 +98,11 @@
         flex: 1;       
         color: white;
         
+        transition: 0.2s;
         
         div {
             display: flex;
-            justify-content:space-evenly; 
+            justify-content:space-between; 
             align-items: center;
             flex:1;
             width: 10px;
@@ -119,7 +120,7 @@
 
             a{    
                 text-decoration: none;  
-                font-size: 30px;
+                
                 
                 cursor: pointer;  
                 

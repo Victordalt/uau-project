@@ -1,55 +1,64 @@
 .footerContainer {
     padding-top: 2rem;      
     position:relative; 
-    height: 40vh;
+
+    height: 21rem;
     width: 80%;   
     color: white;
     border-top-left-radius: 60px;  
     border-top-right-radius: 60px; 
     
     margin: auto;
-    justify-content: space-evenly;
-    
 
     background-color: #272727;
 
     box-shadow:10px 10px 10px black; 
 
-
-    p {
-        font-size: 15px;
-        justify-content: center;
+    .spanContainer {
         text-align: center;
-        padding-top: 2.5rem;
+        padding-top: 2rem;
+
+        
     }
+    
 
     .contentContainer {
         padding: 2rem 0 2rem 0;
 
-        width:50%;
+        width:70%;
         border-bottom: 2px solid white;
         margin-right: auto;
         margin-left: auto;
-        display: flex;
 
+        display: flex;
+        flex:1;
+
+        justify-content: space-evenly;
+
+       
         
-        
-        
+        //background-color: white;
 
         .footerLinks {
+
+            display: flex; 
+            flex: 1;
+            justify-content: space-evenly;
+
 
             div {
                 position: relative;                
                 display: flex;        
                 color: white;
-                width: 130%;
+                width: 100%;
                 padding: 0 0 0 2.5rem;
                 height: 150px;
                 //background-color: white;  
                     
                 
+                
                 justify-content: space-around;
-                text-align: center;
+                
                 align-items: center;
                 
             }
@@ -81,28 +90,30 @@
         .iconsContainer {
             position: relative;
             height: 150px;
-            width: 90px;            
-            padding: 0.5rem;
-            margin-left: 8rem;
+            width: 90px;
+            
+            display: grid;
+            place-content: center;
+            
+            
+            
+            //background-color: white;
             
             a {
                 
+
                 img {
                     width: 3rem;
                     height: 3rem;
                     display: block;
                     padding: 0.4rem;
-
+                    transition: 0.3s;
                     
                     &:hover {
                         transform: scale(1.15);
-                        transition: 0.3s;
-                    }
+                        
+                    }                    
                     
-                    .whatsappIcon {
-                        height: 4rem;
-                        width: 4rem;
-                    }
                 }
             }
 

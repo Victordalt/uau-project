@@ -34,7 +34,7 @@ export default function Footer() {
                     <div>
                         <li><a onClick={scrollToTop}>HOME</a></li>
                         <span>|</span>
-                        <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE Nos</Link></li> 
+                        <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE</Link></li> 
                         <span>|</span>                                             
                         <li><Link to="marcas" spy={true} smooth={true} offset={50} duration={500}>MARCAS</Link></li>
                         <span>|</span>
@@ -47,7 +47,10 @@ export default function Footer() {
                     <a href="https://api.whatsapp.com/send?phone=5571981075282&text=Hello" target="_blank"><img src="./whatsappIcon.png" alt=""/></a>
                 </div>
             </div>
-            <p>Copyright © 2016 - 2021 Uau Company. Desenvolvimento por Victor Dallarosa</p>
+            <div className={styles.spanContainer} text-align="center">
+                <span>Copyright © 2016 - 2021 Uau Company. Desenvolvimento por Victor Dallarosa</span>
+            </div>
+            
         </div>
     )
 }

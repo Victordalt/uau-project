@@ -60,7 +60,7 @@ export default function Navbar() {
                     <div>
                     <li><a onClick={scrollToTop}>HOME</a></li>
                     <span>|</span>
-                    <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE Nos</Link></li> 
+                    <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE</Link></li> 
                     <span>|</span>                                             
                     <li><Link to="marcas" spy={true} smooth={true} offset={50} duration={500}>MARCAS</Link></li>
                     <span>|</span>

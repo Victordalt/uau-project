@@ -20,7 +20,7 @@ type HomeProps = {
   }
 
   //const fetchURL = "http://localhost:3333/marcas";
-  const fetchURL = "http://my-json-server.typicode.com/victordalt/uau-project/marcas/";
+  const fetchURL = "http://my-json-server.typicode.com/victordalt/uau-project/";
   const getItems = () => fetch(fetchURL).then(res => res.json());
   
 

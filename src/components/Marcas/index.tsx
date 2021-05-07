@@ -41,7 +41,7 @@ export default function Marcas() {
                 
                 <tbody>
                     <tr>
-                    {marcaFirstRow.map((marca) => {
+                        {marcaFirstRow.map((marca) => {
                             return (
                                 <td key={marca.id}>
                                     <div>

@@ -41,8 +41,8 @@ export default function Footer() {
                     </ul>
                     <div className={styles.logoEndContainer}>
                         <img src="./uauLogo.png" alt=""/>
-                        <span>Rua das Angélicas, 175, C. das Arvores</span>
-                        <span>Salvador-BA, Brasil 41820-660</span>
+                        <span>Rua das Angélicas, 175, Itaigara</span>
+                        <span>Salvador-BA, Brasil 41810-060</span>
                     </div>
                     <div className={styles.iconsContainer}>
                         <a href="https://www.instagram.com/somosuaucompany/" target="_blank"><img src="./instagramIcon.png" alt=""/></a>

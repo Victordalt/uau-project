@@ -1,25 +1,29 @@
 * {
     margin: 0;
     padding: 0;  
-    font-family: Bebas Neue;
+    
+    
     //text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     letter-spacing: 1.5px;
     box-sizing:border-box;
 
+    font-family: Bebas Neue;
+
     h2 {
         font-size: 40px;
-        
+        font-family: Bebas Neue;
     }
 
     p{
         font-size: 25px;        
         padding: 3rem 15rem 1rem 15rem;
+        font-family: Roboto;
     }
 
     a {
         text-decoration: none;
         color: white;
-        font-size: 30px;        
+               
     }
 
     span {
@@ -28,6 +32,22 @@
     }
 }
 
+.wrapper {
+    position: relative;
+    
+    background-color: rgba(0, 0, 0, 1);;
+}
+
+.wrapper::before {
+    background-image: url("../../public/mosaic_5x5.png");    
+    content: "";       
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
 
 .descriptionAnchor {
     display: block;

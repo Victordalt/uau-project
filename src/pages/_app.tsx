@@ -9,7 +9,7 @@ import  "../styles/global.scss";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <main>
+      <main className="wrapper">
         <Navbar />
         <Component {...pageProps} />
         <div className="mainContent" id="home">

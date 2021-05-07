@@ -12,7 +12,7 @@
 
     background-color: #272727;
 
-    box-shadow:10px 10px 10px black; 
+    box-shadow:10px 10px 30px black; 
 
     .spanContainer {
         text-align: center;
@@ -71,22 +71,20 @@
 
             li {
                 
+                font-size: 20px;
                 list-style: none;                
-                font-size: 25px;
+                
 
                 &:hover{    
-                    transform: scale(1.1);               
+                    transform: scale(1.1); 
+                    border-bottom: 1px solid #fff;              
                 }
 
                 a{    
-                    text-decoration: none !important;  
+                    text-decoration: none !important;                     
                     
+                    cursor: pointer;                   
                     
-                    cursor: pointer;  
-                    
-                    &:hover{    
-                        border-bottom: 1px solid #fff;
-                    }
                 }
                 
                

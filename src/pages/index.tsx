@@ -31,11 +31,11 @@ export default function Home() {
       </Head>
 
       <div className={styles.imageStack}>
-        <img
+        {/* <img
           className={styles.backgroundImg}          
           src="/mosaic_5x5.png" 
           alt="Background"                         
-        />        
+        />         */}
         <img 
           className={styles.logoImg}
           src="/logo_nome.png" 

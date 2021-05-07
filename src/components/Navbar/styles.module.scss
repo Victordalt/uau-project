@@ -29,7 +29,7 @@
         display: flex;
         flex: 1;       
         color: white;
-                
+        
         
 
         div {
@@ -44,7 +44,8 @@
         
         
         li {    
-                    
+                
+            font-size: 30px;
             list-style-type: none;  
                      
             &:hover{    
@@ -67,6 +68,8 @@
 
 .navbarContainerActive { 
         
+    
+
     padding: 1.5rem 0 0 5.5rem;
     z-index: 10;  
     position:fixed; 
@@ -111,7 +114,7 @@
         }
 
         li {    
-             
+            font-size: 30px;
             list-style-type: none;  
                      
             &:hover{    

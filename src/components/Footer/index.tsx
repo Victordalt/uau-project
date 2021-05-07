@@ -28,24 +28,35 @@ export default function Footer() {
       
     return (
         <div className={styles.footerContainer}>
-            <div className={styles.contentContainer}>
-                <img className={styles.logoEnd} src="./Logo_Endereco.png" alt=""/>
-                <ul className={styles.footerLinks}>
-                    <div>
-                        <li><a onClick={scrollToTop}>HOME</a></li>
-                        <span>|</span>
-                        <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE</Link></li> 
-                        <span>|</span>                                             
-                        <li><Link to="marcas" spy={true} smooth={true} offset={50} duration={500}>MARCAS</Link></li>
-                        <span>|</span>
-                        <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</Link></li>
-                    </div>                   
-                </ul>
-                <div className={styles.iconsContainer}>
-                    <a href="https://www.instagram.com/somosuaucompany/" target="_blank"><img src="./instagramIcon.png" alt=""/></a>
-                    <a href="https://www.linkedin.com/company/uau-company/" target="_blank"><img src="./linkedinIcon.png" alt=""/></a>
-                    <a href="https://api.whatsapp.com/send?phone=5571981075282&text=Hello" target="_blank"><img src="./whatsappIcon.png" alt=""/></a>
+            <div className={styles.wrapper}>
+                <div className={styles.contentContainer}>
+                    
+                    <ul className={styles.footerLinks}>
+                        <div>
+                            <li><a onClick={scrollToTop}>HOME</a></li>
+                            {/* <span>|</span> */}
+                            <li><Link to="description" spy={true} smooth={true} offset={50} duration={500}>SOBRE</Link></li> 
+                            {/* <span>|</span>                                              */}
+                            <li><Link to="marcas" spy={true} smooth={true} offset={50} duration={500}>MARCAS</Link></li>
+                            {/* <span>|</span> */}
+                            <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</Link></li>
+                        </div>                   
+                    </ul>
+                    <div className={styles.logoEndContainer}>
+                        <img src="./uauLogo.png" alt=""/>
+                        <span>Rua das Angélicas, 175, C. das Arvores - Salvador-BA, Brasil 41820-660</span>
+                    </div>
+                    <div className={styles.iconsContainer}>
+                        <a href="https://www.instagram.com/somosuaucompany/" target="_blank"><img src="./instagramIcon.png" alt=""/></a>
+                        <a href="https://www.linkedin.com/company/uau-company/" target="_blank"><img src="./linkedinIcon.png" alt=""/></a>
+                        <a href="https://api.whatsapp.com/send?phone=5571981075282&text=Hello" target="_blank"><img src="./whatsappIcon.png" alt=""/></a>
+                    </div>
+                    
                 </div>
+                {/* <div className={styles.address} text-align="center">
+                    <span>Rua das Angélicas, 175, C. das Arvores - Salvador-BA, Brasil 41820-660</span>
+                </div> */}
+                
             </div>
             <div className={styles.spanContainer} text-align="center">
                 <span>Copyright © 2016 - 2021 Uau Company. Desenvolvimento por Victor Dallarosa</span>

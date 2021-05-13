@@ -72,15 +72,15 @@
                 text-align: center;
 
                img {
-                
+               
                 width: 7rem;
                 height: 6rem;
                 margin:auto;                
                }
 
-               
-
-                
+               span:first-of-type {
+                   margin-top: 1rem;
+               }
             }
             
             //background-color: white;
@@ -97,29 +97,19 @@
                     flex-wrap: wrap;
 
                     justify-content: space-between;
-                    //display: flex;        
                     color: white;
                     width: 200%;
                     
                     
-                    //padding: 0 2rem 0 2.5rem;
                     height: 150px;
                     //background-color: white;  
-                        
-                    
-                    
-                    
-                    
                     align-items: center;
-                    
                 }
     
                 li {
-                    
                     font-size: 20px;
                     list-style: none;                
                     
-    
                     &:hover{    
                         transform: scale(1.1); 
                         border-bottom: 1px solid #fff;              
@@ -129,10 +119,7 @@
                         text-decoration: none !important;                     
                         
                         cursor: pointer;                   
-                        
                     }
-                    
-                   
                 }
             }
             
@@ -140,42 +127,30 @@
                 position: relative;
                 display: flex;
                 float:right;
-    
                 
-    
                 
                 display: grid;
                 place-content: center;
                 
-                
-                
-                //background-color: white;
-                
                 a {
-                    
-    
                     img {
-                        width: 3rem;
-                        height: 3rem;
+                        width: 2.5rem;
+                        height: 2.5rem;
                         display: block;
                         padding: 0.4rem;
                         transition: 0.3s;
     
                         
-                        
                         &:hover {
                             transform: scale(1.15);
                             
                         }                    
-                        
                     }
                 }
-    
-                
             }
         }
     }
-    }
+}
 
     
 
@@ -189,7 +164,6 @@
         bottom: 0px;
         left: 0px;
         opacity: 0.1;
-    
 }
 
 

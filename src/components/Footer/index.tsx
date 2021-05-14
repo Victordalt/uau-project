@@ -30,7 +30,6 @@ export default function Footer() {
         <div className={styles.footerContainer}>
             <div className={styles.wrapper}>
                 <div className={styles.contentContainer}>
-                    
                     <ul className={styles.footerLinks}>
                         <div>
                             <li><a onClick={scrollToTop}>HOME</a></li>
@@ -51,7 +50,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className={styles.spanContainer} text-align="center">
+            <div className={styles.copyrightContainer} text-align="center">
                 <span>Copyright © 2016 - 2021 Uau Company. Desenvolvimento por Victor Dallarosa</span>
             </div>
             

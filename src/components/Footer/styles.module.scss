@@ -17,12 +17,12 @@
     
     
 
-    .spanContainer {
+    .copyrightContainer {
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 1rem;
 
         span {
-            font-size: 10px;
+            font-size: 6px;
         }
     }
     
@@ -30,7 +30,7 @@
 
         //background-color: black;
         
-        display: flex;
+        
         padding-top: 2rem;
         border-bottom: 2px solid white;
         width: 60%;
@@ -38,8 +38,7 @@
         margin-left: auto;
 
         .address {
-            text-align: center;
-            padding-bottom: 0.5rem;
+            text-align: center;            
             
             span {
                 font-size: 14px;
@@ -60,38 +59,40 @@
     
             
             .logoEndContainer {
-                        
-               
-                
-                display: grid;
+
+                display: flex;
+                flex-direction: column;
                 //background-color: red;
 
                 text-align: center;
+                
 
                img {
                
                 width: 7rem;
                 height: 6rem;
-                margin:auto;                
+                margin-left: auto;
+                margin-right: auto;               
                }
 
                span:first-of-type {
-                   margin-top: 1rem;
+                   margin-top: 1.5rem;
                }
             }
             
             //background-color: white;
     
-            .footerLinks {
+            .footerLinks {               
+    
                 
-    
-    
+
+
                 div {
                     position: relative; 
                     
                     display: flex;
                     flex-direction: column;
-                    flex-wrap: wrap;
+                    
 
                     justify-content: space-between;
                     color: white;
@@ -123,10 +124,10 @@
             .iconsContainer {
                 position: relative;
                 display: flex;
-                float:right;
+                flex-direction: column;
                 
                 
-                display: grid;
+                
                 place-content: center;
                 
                 a {
@@ -164,3 +165,47 @@
 }
 
 
+@media screen and (max-width: 600px) {
+
+    .footerContainer {
+
+        height: 450px;
+        
+        padding-top: 0;
+
+        .wrapper {
+            padding-top: 0;
+
+            .contentContainer {
+                flex-direction: column;
+
+
+                .footerLinks {
+                    div {
+                        padding-top: 1rem;
+                        flex-direction: row;
+                        height: 80px;
+                        border-bottom: 1px solid white;
+
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+
+                .iconsContainer {
+                    flex-direction: row;
+                }
+
+                .logoEndContainer {
+                    padding: 2rem 0;
+                }
+
+                
+            }
+            
+        }
+    }
+
+}

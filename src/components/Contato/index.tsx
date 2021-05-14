@@ -3,25 +3,18 @@ import styles from './styles.module.scss';
 import {SubmitHandler, useForm} from 'react-hook-form';
 import emailjs, { send } from 'emailjs-com';
 
-
+type Inputs = {
+    name: string;
+    subject: string;
+    email: string;
+    message: string;
+    
+  }
 
 
 export default function Contato() {
     const {register, handleSubmit, formState: {errors}, reset} = useForm<Inputs>();
     const onError = (errors, e) => console.log(errors, e);
-
-        
-    type Inputs = {
-        name: string;
-        subject: string;
-        email: string;
-        message: string;
-        
-      }
-
-      function onSubmitForm(values) {
-        console.log(values); 
-      }
 
       
 
@@ -31,6 +24,7 @@ export default function Contato() {
 
         emailjs.sendForm('service_90x4ir9', 'template_nvozbm8', '#myForm', 'user_bdFMwqxwlNBeWtHydnzCp')
         reset();
+        alert("Mensagem enviada com sucesso!")
         // .then((result) => {
         //     console.log(result.text);
         // }).catch((error) => {

@@ -1,6 +1,6 @@
 .navbarContainer { 
     background-color: transparent;
-    padding: 1.5rem 0 0 5.5rem;
+    padding: 1.5rem 1rem 0 2.5rem;
     z-index: 10;  
     position:fixed; 
     height: 6rem;
@@ -31,15 +31,14 @@
         color: white;
         
         
+        
 
         div {
             display: flex;
-            justify-content:space-between; 
+            justify-content:space-evenly; 
             align-items: center;
             flex:1;
             width: 10px;
-            margin-left: 14rem;
-            margin-right: 20rem;
         }
         
         
@@ -71,7 +70,7 @@
         
     
 
-    padding: 1.5rem 0 0 5.5rem;
+    padding: 1.5rem 1rem 0 2.5rem;
     z-index: 10;  
     position:fixed; 
     height: 6rem;
@@ -106,12 +105,11 @@
         
         div {
             display: flex;
-            justify-content:space-between; 
+            justify-content:space-evenly; 
             align-items: center;
             flex:1;
             width: 10px;
-            margin-left: 14rem;
-            margin-right: 20rem;
+            
         }
 
         li {    
@@ -137,5 +135,18 @@
 }
 
 
+@media screen and (max-width: 600px) {
+    
+    .navbarContainer, .navbarContainerActive {
+        padding: 1.5rem 0 0 0;
 
+
+        .navImage {
+            display: none;
+        }
+    }
+
+
+    
+}
 

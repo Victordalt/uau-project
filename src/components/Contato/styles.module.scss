@@ -78,22 +78,18 @@
         padding-bottom: 1rem;
         display: flex;        
         //background-color: black;
-        width: 41%;
+        
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
-        
-    
-        
-       
 
         input[name=name] {
-            width: 235px;
+            width: 14.7rem;
             
         }
 
         input[name=email] {
-            width: 235px;
+            width: 14.7rem;
             
         }
     }
@@ -181,3 +177,109 @@
 //     opacity: 0.2;  
 //     z-index: 1;  
 // }
+
+
+@media screen and (max-width: 600px) {
+    
+    .contatoContainer {
+
+        height: 820px;
+
+
+        .firstRow {
+
+            display: flex;
+            flex-direction: column;
+
+
+            input[name=name] {
+                width: 18rem;
+                
+            }
+        
+            input[name=email] {
+                width: 18rem;
+                
+            }
+        }
+
+        .secondRow {
+            display: flex;
+
+
+            input[name=subject] {
+                width: 18rem;
+                 
+            }
+    
+            textarea {
+                padding: 1rem;
+                width: 18rem;
+                height: 200px;
+                text-align: left;
+                box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+                border-radius: 12px;
+                margin-left: 1rem;
+                box-shadow:2px 2px 30px black; 
+                resize: none;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+
+    @media screen and (max-width: 800px) {
+    
+        .contatoContainer {
+    
+            height: 820px;
+    
+    
+            .firstRow {
+    
+                display: flex;
+                flex-direction: column;
+    
+    
+                input[name=name] {
+                    width: 18rem;
+                    
+                }
+            
+                input[name=email] {
+                    width: 18rem;
+                    
+                }
+            }
+    
+            .secondRow {
+                display: flex;
+    
+    
+                input[name=subject] {
+                    width: 18rem;
+                     
+                }
+        
+                textarea {
+                    padding: 1rem;
+                    width: 18rem;
+                    height: 200px;
+                    text-align: left;
+                    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+                    border-radius: 12px;
+                    margin-left: 1rem;
+                    box-shadow:2px 2px 30px black; 
+                    resize: none;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    
+
+    
+
+    
+    
+    }
+}

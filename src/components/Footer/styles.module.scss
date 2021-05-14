@@ -28,7 +28,9 @@
     
     .wrapper {
 
+        //background-color: black;
         
+        display: flex;
         padding-top: 2rem;
         border-bottom: 2px solid white;
         width: 60%;
@@ -40,21 +42,16 @@
             padding-bottom: 0.5rem;
             
             span {
-                font-size: 18px;
+                font-size: 14px;
             }
         }
 
         .contentContainer {
-            padding-left: 0;
+            
             
             //background-color: red;
     
             width:100%;
-            
-            margin-right: auto;
-            margin-left: auto;
-    
-            
             display: flex;
             padding-bottom: 2rem;
             
@@ -63,9 +60,9 @@
     
             
             .logoEndContainer {
-               position: relative;           
+                        
                
-                align-items: center;
+                
                 display: grid;
                 //background-color: red;
 
@@ -98,7 +95,7 @@
 
                     justify-content: space-between;
                     color: white;
-                    width: 200%;
+                    width: 100%;
                     
                     
                     height: 150px;

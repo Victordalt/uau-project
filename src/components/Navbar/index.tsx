@@ -49,12 +49,12 @@ export default function Navbar() {
     return (
         <div className={navbar ? styles.navbarContainerActive : styles.navbarContainer}>
             <nav> 
-                <Image 
+                <img 
                     width={55} 
                     height={50} 
                     src="/uauLogo.png" 
-                    alt="Background"
-                    objectFit="cover"              
+                    alt="Logo"                     
+                    className={styles.navImage}            
                 />               
                 <ul className={styles.navLinks}>
                     <div>

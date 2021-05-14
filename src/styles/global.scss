@@ -89,7 +89,7 @@
 }
 
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 600px) {
 
     .wrapper::before {
         background-image: url("../../public/mosaic_5x5.png");   
@@ -109,12 +109,12 @@
     }
 
     h2 {
-        padding: 0 1rem 0 1rem;
+        padding: 1rem 1rem 0 1rem;
         font-size: 30px;
     }
 
     a {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     span {
@@ -147,3 +147,4 @@
     
     
 }
+

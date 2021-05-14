@@ -138,15 +138,23 @@
 @media screen and (max-width: 600px) {
     
     .navbarContainer, .navbarContainerActive {
+        margin:0;
         padding: 1.5rem 0 0 0;
+        width: 100%;
+        border-bottom-left-radius: 0px;  
+        border-bottom-right-radius: 0px; 
+        left:0;
+        
+
+        
 
 
         .navImage {
             display: none;
         }
-    }
-
-
-    
+    }   
 }
+
+
+
 

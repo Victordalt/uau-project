@@ -5,8 +5,7 @@
     z-index: 1;
     position: relative;    
     color: white;
-    text-align: center;
-    padding: 4rem 4rem 4rem 4rem;
+    text-align: center;    
     //background-image: url('../../../public/newBG_transparent.png'); 
     justify-content: center;   
     box-shadow:10px 10px 30px black; 
@@ -33,19 +32,14 @@
         
         tr {
             td {
-                padding: 2rem; 
 
-                
-                
+                padding: 2rem; 
 
                 div {
 
                     border-radius: 25px;                    
                     box-shadow:10px 10px 25px black;   
                     transition: 0.3s; 
-                    
-
-                    
 
                     &:hover{    
                         
@@ -74,11 +68,34 @@
 }
 
 
-@media screen and (max-width: 600px) {
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
 
     .marcasContainer {
-        height: 900px;
+        height: 600px;
+        padding-top: 2rem;
+        
+        table {
+            tr {
+                td {
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}
 
+@media screen and (max-width: 800px) {
+
+    .marcasContainer {
+        height: 930px;
+        
 
         .firstRowWrapper {
             display: flex;
@@ -94,21 +111,20 @@
 }
 
 
-@media screen and (max-width: 800px) {
+
+
+@media screen and (max-width: 480px) {
 
     .marcasContainer {
-        height: 1050px;
-        padding: 2rem;
+        height: 950px;       
+    
+    }
+}
 
-        .firstRowWrapper {
-            display: flex;
-            flex-direction: column;
-        }
+@media screen and (max-width: 380px) {
 
-        .secondRowWrapper {
-            display: flex;
-            flex-direction: column;
-        }
+    .marcasContainer {
+        height: 800px;       
     
     }
 }

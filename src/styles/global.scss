@@ -90,7 +90,7 @@
     .wrapper::before {
         background-image: url("../../public/mosaic_5x5.png");   
         
-        background-size: cover;
+        background-size:contain;
         width: 100%;
         overflow : hidden;
 

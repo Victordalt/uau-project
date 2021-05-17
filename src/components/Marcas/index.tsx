@@ -54,7 +54,7 @@ export default function Marcas() {
                                                 height={150} 
                                                 src={marca.src}
                                                 alt=""   
-                                                objectFit="cover"                                         
+                                                objectFit="cover"                                 
                                             />
                                         </a>                                        
                                     </div>                                    

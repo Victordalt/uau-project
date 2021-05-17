@@ -51,7 +51,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={styles.copyrightContainer} text-align="center">
-                <span>Copyright © 2016 - 2021 Uau Company. Desenvolvimento por Victor Dallarosa</span>
+                <span>Copyright © 2016-2021 Uau Company. Developed by @Victordalt</span>
             </div>
             
         </div>

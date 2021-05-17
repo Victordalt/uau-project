@@ -32,24 +32,25 @@
         
         tr {
             td {
-
+                transition: 0.3s; 
                 padding: 2rem; 
+
+                &:hover{    
+                        
+                    transform: scale(1.075);   
+                }
+
+                a {
+                    cursor: pointer;
+                    
+                }
+
 
                 div {
 
                     border-radius: 25px;                    
                     box-shadow:10px 10px 25px black;   
-                    transition: 0.3s; 
-
-                    &:hover{    
-                        
-                        transform: scale(1.075);   
-                    }
-
-                    a {
-                        cursor: pointer;
-                        
-                    }
+                    
                 }
             }
         }
@@ -94,7 +95,7 @@
 @media screen and (max-width: 800px) {
 
     .marcasContainer {
-        height: 930px;
+        height: 970px;
         
 
         .firstRowWrapper {
@@ -106,30 +107,40 @@
             display: flex;
             flex-direction: column;
         }
+
+        
     
     }
 }
 
 
+@media screen and (max-width: 600px) {
+    .marcasContainer {
+        width: 100%;
+        border-radius: 0;
+        height: 1000px;
+
+        
+        
+    }
+}
 
 
 
-
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
 
     .marcasContainer {
-        height: 870px;       
+        height: 900px;       
     
+        table {
+            tr {
+                td {
+                    padding: .35rem;
+                }
+            }
+        }  
 
     }
 }
 
 
-@media screen and (max-width: 380px) {
-
-    .marcasContainer {
-        height: 830px;       
-    
-
-    }
-}

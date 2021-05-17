@@ -1,6 +1,6 @@
 .navbarContainer { 
     background-color: transparent;
-    padding: 1.5rem 1rem 0 2.5rem;
+    padding: 1.5rem 2.5rem 0 2.5rem;
     z-index: 10;  
     position:fixed; 
     height: 6rem;
@@ -70,7 +70,7 @@
         
     
 
-    padding: 1.5rem 1rem 0 2.5rem;
+    padding: 1.5rem 2.5rem 0 2.5rem;
     z-index: 10;  
     position:fixed; 
     height: 6rem;
@@ -139,7 +139,8 @@
     
     .navbarContainer, .navbarContainerActive {
         margin:0;
-        padding: 1.5rem 0 0 0;
+        height: 5rem;
+        padding: 1.25rem 0.5rem 0 0.5rem;
         width: 100%;
         border-bottom-left-radius: 0px;  
         border-bottom-right-radius: 0px; 

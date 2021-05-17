@@ -7,7 +7,7 @@
     z-index: 3;
     background-color: #aa0000;
     width: 80%;
-    height: 720px;
+    height: 760px;
     text-align: center;
     color: white;
     background-image: url('../../../public/newBG_black_fade.png'); 
@@ -90,7 +90,7 @@
 
         input[name=email] {
             width: 14.7rem;
-            
+           
         }
     }
 
@@ -107,6 +107,7 @@
 
         input[name=subject] {
             width: 500px;
+            
              
         }
 
@@ -116,9 +117,9 @@
             height: 200px;
             text-align: left;
             box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-            border-radius: 12px;
+            border-radius: 5px;
             margin-left: 1rem;
-            box-shadow:2px 2px 30px black; 
+            box-shadow:1px 1px 25px black; 
             resize: none;
             margin-top: 1rem;
         }
@@ -131,8 +132,8 @@
     input[type=text] {        
         margin: 1rem;
         padding: 1rem;
-        box-shadow:5px 5px 20px black; 
-        border-radius: 15px;        
+        box-shadow:1px 1px 25px black; 
+        border-radius: 5px;        
     }
 
     input[type=submit] {        
@@ -140,9 +141,9 @@
         
                
         padding: 1rem 5.5rem;
-        margin-top: 0.75rem;
-        box-shadow:5px 5px 30px black; 
-        border-radius: 15px;
+        margin-top: 2rem;
+        box-shadow:5px 5px 18px black; 
+        //border-radius: 6px;
         margin-left: auto;
         margin-right: auto;
 
@@ -153,9 +154,9 @@
         // color: green;
 
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
             cursor: pointer;
-            background-color: rgb(38, 185, 38);
+            background-color: rgb(41, 163, 41);
             color: white;
             font-weight: bold;
             font-size: 18px;
@@ -186,46 +187,39 @@
     
     .contatoContainer {
 
-        height: 820px;
+        height: 860px;
         padding: 4rem 2rem 2rem 2rem;
 
+        input[type=text] {
+            width: 22rem;
+        }
+        
         .firstRow {
 
             display: flex;
             flex-direction: column;
 
 
-            input[name=name] {
+            input[type=text] {
                 width: 22rem;
-                
-            }
-        
-            input[name=email] {
-                width: 22rem;
-                
             }
         }
 
         .secondRow {
-            display: flex;
-
-
-            input[name=subject] {
-                width:22rem;
-                    
+            input[type=text] {
+                width: 22rem;
             }
+
+            
     
             textarea {
-                padding: 1rem;
+                
                 width: 22rem;
-                height: 200px;
-                text-align: left;
-                box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-                border-radius: 12px;
-                margin-left: 1rem;
-                box-shadow:2px 2px 30px black; 
-                resize: none;
-                margin-top: 1rem;
+                
+            }
+
+            input[type=submit] {
+                width: 22rem;
             }
         }
     }
@@ -234,98 +228,35 @@
 @media screen and (max-width: 600px) {
     
     .contatoContainer {
-
-        height: 820px;
-
-
-        .firstRow {
-
-            display: flex;
-            flex-direction: column;
-
-
-            input[name=name] {
-                width: 18rem;
-                
-            }
-        
-            input[name=email] {
-                width: 18rem;
-                
-            }
-        }
-
-        .secondRow {
-            display: flex;
-
-
-            input[name=subject] {
-                width: 18rem;
-                 
-            }
-    
-            textarea {
-                padding: 1rem;
-                width: 18rem;
-                height: 200px;
-                text-align: left;
-                box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-                border-radius: 12px;
-                margin-left: 1rem;
-                box-shadow:2px 2px 30px black; 
-                resize: none;
-                margin-top: 1rem;
-            }
-        }
-    } 
-    
+        width: 100%;
+        border-radius: 0;
     }
+    
+}
 
 @media screen and (max-width: 480px) {
     
     .contatoContainer {
 
-        height: 820px;
-        padding: 4rem 1rem 2rem 1rem;
-
         .firstRow {
-
-            display: flex;
-            flex-direction: column;
-
-
-            input[name=name] {
-                width: 14rem;
-                
-            }
-        
-            input[name=email] {
-                width: 14rem;
-                
+            input[type=text] {
+                width: 18rem;
             }
         }
 
         .secondRow {
-            display: flex;
-
-
-            input[name=subject] {
-                width: 14rem;
-                 
+            input[type=text] {
+                width: 18rem;
             }
-    
+
             textarea {
-                width: 14rem;
-                height: 200px;
-                text-align: left;
-                box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-                border-radius: 12px;
-                margin-left: 1rem;
-                box-shadow:2px 2px 30px black; 
-                resize: none;
-                margin-top: 1rem;
+                width: 18rem;
+            }
+            input[type=submit] {
+                width: 18rem;
             }
         }
+        
     } 
     
-    }
+}

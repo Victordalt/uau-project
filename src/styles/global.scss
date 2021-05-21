@@ -32,22 +32,18 @@
 
 
 
-
-
-
-
 .wrapper {
-    position: relative;
+    position: relative;    
+    background-color: rgba(0, 0, 0, 1);
     
-    background-color: rgba(0, 0, 0, 1);;
 }
 
 .wrapper::before {
     background-image: url("../../public/mosaic_5x5.png");   
     background-attachment: fixed; 
-    // background-position: center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
     content: "";       
     position: absolute;
     top: 0px;
@@ -55,6 +51,8 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.6;
+    
+    
 }
 
 .descriptionAnchor {

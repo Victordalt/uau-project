@@ -49,13 +49,15 @@ export default function Navbar() {
     return (
         <div className={navbar ? styles.navbarContainerActive : styles.navbarContainer}>
             <nav> 
-                <img 
+                <a onClick={scrollToTop}>
+                    <img 
                     width={55} 
                     height={50} 
                     src="/uauLogo.png" 
                     alt="Logo"                     
                     className={styles.navImage}            
-                />               
+                    />  
+                </a>                             
                 <ul className={styles.navLinks}>
                     <div>
                     <li><a onClick={scrollToTop}>HOME</a></li>

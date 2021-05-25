@@ -21,8 +21,19 @@
         
         font-family: Bebas Neue; 
         align-items: center;
-        display: flex;   
+        display: flex;  
+        
+        
+        a{
+            cursor: pointer;
+            transition: 0.2s;
+
+            &:hover{    
+                transform: scale(1.2);               
+            }
+        }
           
+        
     }
 
     .navLinks{    
@@ -93,6 +104,16 @@
         font-family: Bebas Neue; 
         align-items: center;
         display: flex;     
+
+        a{
+            cursor: pointer;
+            transition: 0.2s;
+
+            &:hover{    
+                transform: scale(1.2);               
+            }
+        }
+          
     }
 
     .navLinks{  

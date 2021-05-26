@@ -41,11 +41,12 @@ export default function Contato() {
             <form onSubmit={handleSubmit(sendEmail)} id="myForm">
                 <div className={styles.firstRow}>
                     <div className={styles.nameWrapper}>
+                        <label >Nome</label>
                         <input type="text"  placeholder="Seu Nome" className="name" name="name" {...register("name", {required: "Por favor, digite seu nome." })}/>
-
                         <span className={styles.errorMessage}>{errors?.name?.message}</span>
                     </div>
                     <div className={styles.emailWrapper}>
+                        <label >E-mail</label>
                         <input type="text" placeholder="Seu E-mail" className="email" name="email" 
                             {...register("email", 
                                 {   required: "Por favor, digite seu email.",
@@ -59,9 +60,12 @@ export default function Contato() {
                 </div>  
                 <div className={styles.secondRow}>
                     <ul>
+                        <label >Assunto</label>
                         <li><input type="text" placeholder="Assunto" className="subject" name="subject" {...register("subject", {required: "Por favor, digite o assunto." })}/></li>
                         <span className={styles.errorMessage}>{errors?.subject?.message}</span>
-                        <li>
+                        
+                        <li className={styles.msgWrapper}>
+                        <label >Mensagem</label>
                             <textarea placeholder="Mensagem" className="message" name="message" 
                                 {...register("message",
                                         {   required: "Por favor, digite sua mensagem.",

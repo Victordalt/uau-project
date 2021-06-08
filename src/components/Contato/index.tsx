@@ -60,12 +60,12 @@ export default function Contato() {
                 </div>  
                 <div className={styles.secondRow}>
                     <ul>
-                        <label >Assunto</label>
+                        <label>Assunto</label>
                         <li><input type="text" placeholder="Assunto" className="subject" name="subject" {...register("subject", {required: "Por favor, digite o assunto." })}/></li>
                         <span className={styles.errorMessage}>{errors?.subject?.message}</span>
                         
                         <li className={styles.msgWrapper}>
-                        <label >Mensagem</label>
+                        <label>Mensagem</label>
                             <textarea placeholder="Mensagem" className="message" name="message" 
                                 {...register("message",
                                         {   required: "Por favor, digite sua mensagem.",

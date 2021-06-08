@@ -25,12 +25,15 @@ export default function Navbar() {
                     }
         }
         window.addEventListener('scroll', onScroll);
-
     })
     
+
+
     function scrollToTop() {
         scroll.scrollToTop({spy:true, smooth:true, offset:50, duration:500});
     }
+
+
 
     useEffect(() => {
         Events.scrollEvent.register('begin', function(to, element) {
@@ -40,7 +43,6 @@ export default function Navbar() {
         Events.scrollEvent.register('end', function(to, element) {
           console.log('end', arguments);
         });
-    
         scrollSpy.update();
       },)
     
@@ -68,7 +70,6 @@ export default function Navbar() {
                     <span>|</span>
                     <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>CONTATO</Link></li>
                     </div>              
-                    
                 </ul>                
             </nav>            
         </div>

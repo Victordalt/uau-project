@@ -39,9 +39,7 @@ function MyApp({ Component, pageProps }) {
           <Footer /> 
         </div>
       </main>
-      
     </>
-    
   )
 }
 

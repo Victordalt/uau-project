@@ -39,7 +39,7 @@ export default function Footer() {
                         </div>                   
                     </ul>
                     <div className={styles.logoEndContainer}>
-                        <img src="./uauLogo.png" alt=""/>
+                        <a onClick={scrollToTop}><img src="./uauLogo.png" alt=""/></a>                                        
                         <span>Rua das Angélicas, 175, Itaigara</span>
                         <span>Salvador-BA, Brasil 41810-060</span>
                     </div>
